@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IEnedge">
+    <meta name="viewpot" content="width=device-width, initial-scale=1">
+    <link href="https: //fonts.googleapis.com/css2?family= DM+Sans:wght@400;700 & family família= Inter &family= Montserrat:ital,wght@0,300;0,400;1,200;1,300;1,700 & family= Open+Sans: wght@300;400;700 & display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/input-texto.css" rel="stylesheet">
+    <link href="css/figura.css" rel="stylesheet">
+    <link href="css/informacao.css" rel="stylesheet">
+    <link href="css/botoes.css" rel="stylesheet">
+    <link href="css/mensagem-box.css" rel="stylesheet">
+    <link href="css/rodape.css" rel="stylesheet">
+    <title>Decodificador</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="figura"><img src="img/Vector.png" alt="Logo Alura"></h1>
+    </header>
+    <main>
+      <section>
+        <textarea class="input-texto" cols="40" rows="10" placeholder="Digite seu texto: " required></textarea>
+        <div class="informacao">
+          <h2 class="atencao"><img src="img/icone.png"  alt="icone"> Apenas letras minusculas e sem acento</h2>
+        </div>
+        <div class="botoes">
+          <button class="encriptografar" onclick="btnEncriptar()">Criptografar</button>
+          <button class="descriptografar" onclick="btnDescritar()">descriptografar</button>
+        </div>
+      </section>
+      <section class="mensagem-box">  
+        <textarea class="mensagem" cols="30" rows="12" placeholder="Digite um texto que você deseja criptografar ou descriptografar."></textarea>
+        <div id="div-aparece">
+          <button class="copiar" onclick="copiar()">Copiar</button>
+        </div>
+      </section>
+    </main>
+    <footer class="rodape"><h3 class="nome">Desenvolvido Jaqueline sandriele</h3>
+    <p class="ano">2022</p></footer>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+.rodape{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  margin-left: 24px;
+  color: rgba(73, 80, 87, 1);
+  opacity: 90%;
+}
+.nome{
+  font-size: 12px;
+  
+}
+.ano{
+  font-size: 12px;
+  margin-left: 12px;
+}

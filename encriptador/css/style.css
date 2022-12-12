@@ -1,0 +1,20 @@
+*{
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 150%;
+}
+body {
+  background: #F3F5FC;
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+}
+header{
+  margin-left: 40px;
+}
+main {
+  display: flex;
+
+}
+

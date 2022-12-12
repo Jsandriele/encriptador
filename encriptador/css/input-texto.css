@@ -1,0 +1,15 @@
+.input-texto{
+  display: flex;
+  flex-direction: row;
+  width: 680px;
+  line-height: 2.5rem;
+  margin-left: 240px;
+  margin-right: 80px;
+  border: none;
+  background: #F3F5FC;
+  color: rgba(10, 56, 113, 1);
+  padding: 0.5rem;
+  
+ 
+
+}
